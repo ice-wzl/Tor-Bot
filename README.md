@@ -21,3 +21,6 @@ options:
   -u URL, --url URL     The url to go out and pretend to read
   -d, --detatched       Should the browser run in headless mode {-d True, -d False}
   ````
+## Usage 
+- Ensure `Tor` is installed and running 
+- Run the script providing it the link `-u`, number of times to run `-i` and if it should be run headless or not `-d` means headless 
