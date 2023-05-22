@@ -1,10 +1,10 @@
 # Tor-Bot
 Python web bot that uses Selenium to view web pages and mimic a human reader.  This bot will route its traffic through Tor.
 ## Install
-Ensure `geckodriver` is in your path
-GeckoDriver can be installed from this link below. Pick the version of GeckoDriver based on the system being utilized.
-https://github.com/mozilla/geckodriver/releases
-`export PATH=$PATH:/path/to/downloaded/geckodriver`
+- Ensure `geckodriver` is in your path
+- GeckoDriver can be installed from this link below. Pick the version of GeckoDriver based on the system being utilized.
+- https://github.com/mozilla/geckodriver/releases
+- `export PATH=$PATH:/path/to/downloaded/geckodriver`
 ````
 git clone https://github.com/ice-wzl/Tor-Bot.git
 cd Tor-Bot
