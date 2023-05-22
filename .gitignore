@@ -1,0 +1,3 @@
+iterations.log
+venv/*
+geckodriver.log
