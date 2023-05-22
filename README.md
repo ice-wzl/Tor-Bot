@@ -6,3 +6,14 @@ git clone https://github.com/ice-wzl/Tor-Bot.git
 cd Tor-Bot
 pip3 install -r requirements.txt
 ````
+## Help
+````
+python3 tor-bot-1.2.py -h                                                                                      
+usage: tor-bot-1.2.py [-h] [-i ITERATIONS] [-u URL] [-d]
+options:
+  -h, --help            show this help message and exit
+  -i ITERATIONS, --iterations ITERATIONS
+                        How many times should the view action be looped
+  -u URL, --url URL     The url to go out and pretend to read
+  -d, --detatched       Should the browser run in headless mode {-d True, -d False}
+  ````
