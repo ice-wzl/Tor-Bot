@@ -24,3 +24,11 @@ options:
 ## Usage 
 - Ensure `Tor` is installed and running 
 - Run the script providing it the link `-u`, number of times to run `-i` and if it should be run headless or not `-d` means headless 
+## Logging
+- Upon first run script will create a `iterations.log` file which will track start and stop times 
+- It looks like this
+````
+Started at 05/21/2023 22:16:36 on URL https://example.com/page/i/viewed
+Stopped at 05/21/2023 22:19:56 on URL https://example.com/page/i/viewed
+````
+- `geckodriver.log` will also be created, this is a log file created and controlled by the `geckodriver` not this script.  If you have issues with the script, checking this log file first is a decent place to start.
